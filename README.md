@@ -1,36 +1,31 @@
 # Lalit Chaudhary
 
-Flutter developer. I build separate demo apps for banking, commerce, delivery, school, inventory, fleet, chat, fitness, travel, and everyday tools.
+Flutter and Dart developer. I build separate mobile demos, each with its own screens, colors, and sample data. Nothing here talks to a live bank, shop, or map.
 
-**Portfolio:** [github.com/LalitChaudhary/flutter-portfolio](https://github.com/LalitChaudhary/flutter-portfolio)
+## Selected work
 
-Each folder is its own Flutter app, with its own colors and sample data. Demo passwords are not a GitHub login.
-
-## Demo logins
-
-Password for every signed-in demo is `demo1234`, except Aivora.
-
-| App | Email |
+| App | What it shows |
 | --- | --- |
-| FinoraX | avery.cole@finorax.dev |
-| ShopVanta | nola@shopvanta.dev |
-| QuickBiteX | rio@quickbitex.dev |
-| EduNexora | teacher@edunexora.dev |
-| StockPilot | clerk@stockpilot.dev |
-| FleetZen | dispatch@fleetzen.dev |
-| ChatSphere | lea@chatsphere.dev |
-| FitPulse | kai@fitpulse.dev |
-| Tripora | sena@tripora.dev |
-| Aivora | no password; tap **Open a session** |
-| NoteCraft, HabitLane, and the other profile apps | guest@foldername.dev |
+| [FinoraX](https://github.com/LalitChaudhary/flutter-finorax-banking) | Personal finance on a local mock ledger |
+| [ShopVanta](https://github.com/LalitChaudhary/flutter-shopvanta-ecommerce) | Editorial shop with a sandbox checkout |
+| [QuickBiteX](https://github.com/LalitChaudhary/flutter-quickbitex-food-delivery) | Food order with simulated delivery status |
+| [EduNexora](https://github.com/LalitChaudhary/flutter-edunexora-management) | Campus views for admin, teacher, student, parent, and accounts |
+| [StockPilot](https://github.com/LalitChaudhary/flutter-stockpilot-inventory) | Counter stock and tax in a local ledger |
+| [FleetZen](https://github.com/LalitChaudhary/flutter-fleetzen-gps-tracking) | Stored sample van locations, no device GPS |
+| [ChatSphere](https://github.com/LalitChaudhary/flutter-chatsphere-messaging) | Local message threads |
+| [FitPulse](https://github.com/LalitChaudhary/flutter-fitpulse-fitness) | Sample workouts, not medical advice |
+| [Tripora](https://github.com/LalitChaudhary/flutter-tripora-travel-booking) | Mock hotel search and holds |
+| [Aivora](https://github.com/LalitChaudhary/flutter-aivora-ai-assistant) | On-device sample assistant replies |
 
-EduNexora also accepts `admin`, `student`, `parent`, and `accounts` at `edunexora.dev`.
+More apps cover notes, habits, weather, recipes, plants, tasks, reading, quizzes, and everyday lists. Each repository is named `flutter-` plus the app name.
 
-## Run one app
+## Run an app
 
 ```bash
-git clone https://github.com/LalitChaudhary/flutter-portfolio.git
-cd flutter-portfolio/finorax
+git clone https://github.com/LalitChaudhary/flutter-finorax-banking.git
+cd flutter-finorax-banking
 flutter pub get
 flutter run
 ```
+
+Demo sign-in details are in that app's README. Those accounts exist only inside the demo.

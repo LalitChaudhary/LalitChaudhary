@@ -1,6 +1,14 @@
 # Lalit Chaudhary
 
-Flutter and Dart developer. I build separate mobile demos, each with its own screens, colors, and sample data. Nothing here talks to a live bank, shop, or map.
+Flutter and Dart developer. I build self-contained mobile demos, each with its own screens, color system, and sample data.
+
+**Portfolio:** [lalitchaudhary.github.io/lalit-profile](https://lalitchaudhary.github.io/lalit-profile/)
+
+These apps stay on the device. They do not talk to a live bank, shop, map, or messaging service.
+
+## Stack
+
+Flutter · Dart · Riverpod · GoRouter · presentation, domain, and data layers
 
 ## Selected work
 
@@ -17,7 +25,7 @@ Flutter and Dart developer. I build separate mobile demos, each with its own scr
 | [Tripora](https://github.com/LalitChaudhary/flutter-tripora-travel-booking) | Mock hotel search and holds |
 | [Aivora](https://github.com/LalitChaudhary/flutter-aivora-ai-assistant) | On-device sample assistant replies |
 
-More apps cover notes, habits, weather, recipes, plants, tasks, reading, quizzes, and everyday lists. Each repository is named `flutter-` plus the app name.
+More apps cover notes, habits, weather, recipes, plants, tasks, reading, quizzes, and everyday lists. Each repository is named `flutter-` plus the app name. The full set is on the [portfolio site](https://lalitchaudhary.github.io/lalit-profile/).
 
 ## Run an app
 
